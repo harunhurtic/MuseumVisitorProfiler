@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d2485;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    color: #5c3d9e;
+}
+
+.card,
+.nav-card,
+.restart-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    color: black;
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    background-color: #5c3d9e;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.option-button:hover {
+    background-color: #4a2f7a;
+}
+
+.option-button.selected {
+    background-color: #2980b9;
+}
+
+.nav-button {
+    display: block;
+    width: 100%;
+    background-color: #18004d;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #4a2f7a;
+}
+
+#result-container {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    color: black;
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#scores {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    /* Ensures it stays hidden initially */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    color: black;
+    display: none;
+}
+
+.restart-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    color: black;
+    display: none;
+}
