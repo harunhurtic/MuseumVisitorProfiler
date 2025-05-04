@@ -9,7 +9,7 @@ body {
 h1,
 h2,
 h3 {
-    color: #5c3d9e;
+    color: #5d3c9e;
 }
 
 .card,
@@ -27,7 +27,7 @@ h3 {
 .option-button {
     display: block;
     width: 100%;
-    background-color: #5c3d9e;
+    background-color: #5d3c9e;
     color: white;
     border: none;
     padding: 12px;
@@ -38,7 +38,7 @@ h3 {
 }
 
 .option-button:hover {
-    background-color: #4a2f7a;
+    background-color: #5d3c9e;
 }
 
 .option-button.selected {
