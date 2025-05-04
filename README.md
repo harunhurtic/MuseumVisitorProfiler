@@ -1,5 +1,3 @@
-The Museum Visitor Profiler
-
 Welcome to the repository for Museum Visitor Profiler — a web-based showcase of a questionnaire designed to categorize and profile museum visitors into one of five visitor motivational categories, based on John H. Falk’s Museum Visitor Experience Model.
 
 Try the Questionnaire and the Showcase Here:
