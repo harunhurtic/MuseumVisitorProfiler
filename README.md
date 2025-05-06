@@ -20,10 +20,8 @@ Scoring is designed to ensure that no two profiles get equal scores, guaranteein
 📚 Academic Context:
 This showcase and questionnaire was designed as part of a Master’s Thesis.
 
-Title: "Artefact Intelligence: Using AI to Enhance Museum Visitor Engagement Through Personalized Artefact Descriptions".
-Author: Harun Hurtic
-Institution: NTNU – Norwegian University of Science and Technology
-Year: 2025
+Title: "Artefact Intelligence: Using AI to Enhance Museum Visitor Engagement Through Personalized Artefact Descriptions", Author: Harun Hurtic, Institution: NTNU – Norwegian University of Science and Technology, Year: 2025.
+
 Read the Thesis: (Link will be here in the future)
 
 🔬 Future Development:
