@@ -18,6 +18,7 @@ The five profiles, based on Falk’s model, are:
 Scoring is designed to ensure that no two profiles get equal scores, guaranteeing the assignment of one final profile.
 
 📚 Academic Context:
+
 This showcase and questionnaire was designed as part of a Master’s Thesis.
 
 Title: "Artefact Intelligence: Using AI to Enhance Museum Visitor Engagement Through Personalized Artefact Descriptions", Author: Harun Hurtic, Institution: NTNU – Norwegian University of Science and Technology, Year: 2025.
@@ -25,7 +26,9 @@ Title: "Artefact Intelligence: Using AI to Enhance Museum Visitor Engagement Thr
 Read the Thesis: (Link will be here in the future)
 
 🔬 Future Development:
+
 The questionnaire itself is intended to be the subject of future refinement and further research. 
 
 For collaboration, feedback,or reuse inquiries, feel free to reach out:
+
 🌐 https://www.hurtic.net
