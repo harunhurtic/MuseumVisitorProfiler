@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styling.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>Museum Visitor Profiler</title>
 
 </head>
@@ -19,11 +21,14 @@
         <button class="nav-button" id="info-btn" onclick="showInfo()">How does it work?</button>
     </div>
     <div class="nav-card" id="prev-card">
-        <button class="nav-button" id="prev-btn" onclick="previousQuestion()">⬅️ Previous Question</button>
+        <button class="nav-button" id="prev-btn" onclick="previousQuestion()">
+            <i class="fas fa-arrow-left"></i> Previous Question
+        </button>
     </div>
     <div id="quiz" class="card"></div>
     <div class="nav-card" id="next-card">
-        <button class="nav-button" id="next-btn" onclick="nextQuestion()">Next Question ➡️</button>
+        <button class="nav-button" id="next-btn" onclick="nextQuestion()">Next Question <i
+                class="fas fa-arrow-right"></i> </button>
     </div>
 
     <div id="result-container">
@@ -32,7 +37,7 @@
     </div>
 
     <div id="info-container" class="card" style="display: none;">
-        <button class="nav-button" onclick="goBack()">⬅️ Go Back</button>
+        <button class="nav-button" onclick="goBack()"><i class="fas fa-arrow-left"></i> Go Back</button>
         <h2 style="text-align: center; color: #6a5acd;">How does it work?</h2>
         <text>
             This questionnaire helps identify your museum visitor profile based on John H. Falk's Five Motivational
@@ -58,7 +63,8 @@
 
     <div id="scores"></div>
     <div class="restart-card" id="restart-card">
-        <button class="nav-button" id="restart-btn" onclick="startAgain()">Start Again</button>
+        <button class="nav-button" id="restart-btn" onclick="startAgain()">Try Again <i
+                class="fa fa-refresh"></i></button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
@@ -170,6 +176,13 @@
 
             document.getElementById("prev-card").style.display = currentQuestion > 0 ? "block" : "none";
             document.getElementById("next-card").style.display = selections[currentQuestion] ? "block" : "none";
+
+            const nextBtn = document.getElementById("next-btn");
+            if (currentQuestion === questions.length - 1) {
+                nextBtn.innerHTML = 'See Result <i class="fa-solid fa-square-poll-vertical"></i>';
+            } else {
+                nextBtn.innerHTML = 'Next Question <i class="fas fa-arrow-right"></i>';
+            }
         }
 
 
