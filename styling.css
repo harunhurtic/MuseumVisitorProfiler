@@ -75,6 +75,7 @@ h3 {
 
 #result {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -95,6 +96,7 @@ img {
     text-align: center;
     background: white;
     padding: 20px;
+    padding-bottom: 30px;
     border-radius: 5px;
     color: black;
     max-width: 600px;
